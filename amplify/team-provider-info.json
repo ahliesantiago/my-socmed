@@ -1,0 +1,31 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mysocmed-dev-d760e-authRole",
+      "UnauthRoleArn": "arn:aws:iam::471112942154:role/amplify-mysocmed-dev-d760e-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::471112942154:role/amplify-mysocmed-dev-d760e-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-mysocmed-dev-d760e-deployment",
+      "UnauthRoleName": "amplify-mysocmed-dev-d760e-unauthRole",
+      "StackName": "amplify-mysocmed-dev-d760e",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:471112942154:stack/amplify-mysocmed-dev-d760e/82b2f830-37b5-11ef-8d8d-0a2553a6f231",
+      "AmplifyAppId": "d1nj6z48gxmnar"
+    },
+    "categories": {
+      "api": {
+        "mysocmed": {},
+        "AdminQueries": {}
+      },
+      "auth": {
+        "mysocmedauth": {},
+        "userPoolGroups": {}
+      },
+      "function": {
+        "AdminQueriese38f0600": {
+          "deploymentBucketName": "amplify-mysocmed-dev-d760e-deployment",
+          "s3Key": "amplify-builds/AdminQueriese38f0600-53776f633833777a7154-build.zip"
+        }
+      }
+    }
+  }
+}
