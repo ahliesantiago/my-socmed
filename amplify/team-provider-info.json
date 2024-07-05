@@ -25,6 +25,12 @@
           "deploymentBucketName": "amplify-mysocmed-dev-d760e-deployment",
           "s3Key": "amplify-builds/AdminQueriese38f0600-53776f633833777a7154-build.zip"
         }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1nj6z48gxmnar",
+          "type": "manual"
+        }
       }
     }
   }
