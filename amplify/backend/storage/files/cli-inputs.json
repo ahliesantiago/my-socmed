@@ -1,0 +1,14 @@
+{
+  "resourceName": "files",
+  "policyUUID": "20f6f66a",
+  "bucketName": "filebucket",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}

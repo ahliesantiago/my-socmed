@@ -9,13 +9,15 @@ import {
     SnippetsOutlined,
     SendOutlined
 } from "@ant-design/icons"
-import PlaceholderGirl from "../assets/images/PlaceholderGirl.jpg"
+
+import ProfilePhoto from "./ProfilePhoto"
 
 const Post = (props) => {
     const session = useContext(SessionContext)
     const isOwner = session.username === props.poster
+    const photoSrc = ProfilePhoto(props.poster)
     const [isPublic, setIsPublic] = useState(props.privacy === 'public')
-    const isCollapsed = props.content.length > 150
+    // const isCollapsed = props.content.length > 150
 
     const cardStyle = {
         margin: '1rem',
@@ -75,7 +77,7 @@ const Post = (props) => {
             ]}
         >
             <Flex>
-                <img style={imgStyle} src={PlaceholderGirl} alt="profile picture" />
+                <img style={imgStyle} src={photoSrc} alt="profile picture" />
                 <Flex vertical style={{ width: '100%' }}>
                     <Flex justify="space-between">
                         <h4 className="mt-1">@{props.poster}</h4>
